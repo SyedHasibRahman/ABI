@@ -1,0 +1,17 @@
+.header .navbar{
+    background: #dcdcdcc9;  
+}  
+.navbar-brand img{
+    height: 33px;
+} 
+.nav-item a{
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    color: #222 !important;
+}
+.nav-item a:hover{ 
+    border: 1px solid white;
+    border-radius: 10px;
+    color: #dcdcdc !important;
+    background-color: #353535;
+}
