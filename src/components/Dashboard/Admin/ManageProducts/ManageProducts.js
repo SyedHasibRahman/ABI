@@ -7,7 +7,7 @@ const ManageProducts = () => {
 
 
     useEffect(() => {
-        fetch('https://still-bastion-57482.herokuapp.com/products')
+        fetch('https://fathomless-chamber-32875.herokuapp.com/products3')
             .then(res => res.json())
             .then(data => setproduct(data))
     }, []);
@@ -15,7 +15,7 @@ const ManageProducts = () => {
     const handleDelete = id => {
         const deleteMassege = window.confirm("Delete the item?");
         if (deleteMassege) {
-            const url = `https://still-bastion-57482.herokuapp.com/products/${id}`;
+            const url = `https://fathomless-chamber-32875.herokuapp.com/products3/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

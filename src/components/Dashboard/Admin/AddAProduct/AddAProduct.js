@@ -12,7 +12,7 @@ const AddAProduct = () => {
     const { register, handleSubmit, reset } = useForm();
     const redirect_uri = location.state?.from || '/products';
     const onSubmit = data => {
-        axios.post('https://still-bastion-57482.herokuapp.com/products', data)
+        axios.post('https://fathomless-chamber-32875.herokuapp.com/products3', data)
             .then(res => {
                 console.log(res)
                 if (res.data.insertedId) {

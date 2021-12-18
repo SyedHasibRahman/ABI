@@ -13,7 +13,7 @@ const Review = () => {
     const onSubmit = data => {
         data.userEmail = user?.email;
         data.userName = user?.displayName;
-        axios.post('https://still-bastion-57482.herokuapp.com/reviews', data)
+        axios.post('https://fathomless-chamber-32875.herokuapp.com/reviews3', data)
             .then(res => {
                 console.log(res)
                 if (res.data.insertedId) {

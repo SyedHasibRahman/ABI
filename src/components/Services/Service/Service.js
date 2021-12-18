@@ -23,7 +23,7 @@ const Service = (props) => {
                         >
                         </Rating >
                         <h4>${ price }</h4>
-                        <Link className="btn btn-info " to={ `/Details/${_id}` }>Buy Now</Link>
+                        <Link className="btn btn-info " to={ `/Details/${_id}` }>Purchase now</Link>
                     </div>
 
                 </div>

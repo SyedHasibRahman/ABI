@@ -56,7 +56,7 @@ function Dashboard(props) {
                         <h5>Admin Panel</h5>
 
                         <Link to="/"><Button variant="text">Back To Home</Button> </Link>
-                        <Link to="/Dashboard"> <Button variant="text">Dashboard</Button>  </Link>
+                        <Link to="/Dashboard/DashboardHome"> <Button variant="text">Dashboard</Button>  </Link>
                         <Link to={ `/Dashboard/ManageAllOrders` }> <Button variant="text">Manage All Orders</Button> </Link>
                         <Link to={ `/Dashboard/AddAProduct` }> <Button variant="text">Add A Product</Button> </Link>
                         <Link to={ `/Dashboard/MakeAdmin` }> <Button variant="text">Make Admin</Button> </Link>
@@ -74,7 +74,7 @@ function Dashboard(props) {
                     <h5>Use Panel</h5>
 
                     <Link to="/"><Button variant="text">Back To Home</Button> </Link>
-                    <Link to={ `/Dashboard` }> <Button variant="text">Dashboard</Button>  </Link>
+                    <Link to={ `/Dashboard/DashboardHome` }> <Button variant="text">Dashboard</Button>  </Link>
                     <Link to={ `/Dashboard/Pay` }> <Button variant="text">Pay</Button> </Link>
                     <Link to={ `/Dashboard/MyOrders` }> <Button variant="text">My Orders</Button> </Link>
                     <Link to={ `/Dashboard/Review` }> <Button variant="text">Review</Button> </Link>
