@@ -10,7 +10,9 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                     <div className="container">
-                        <Link className="navbar-brand" to="/"> <b>AB INTERNATIONAL</b> </Link>
+                        <Link className="navbar-brand" to="/">
+                            <img src="https://www.logolynx.com/images/logolynx/66/66e22a265f3c8d3bb480befae728f835.jpeg" alt="" />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
