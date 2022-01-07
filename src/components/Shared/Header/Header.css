@@ -1,5 +1,5 @@
 .header .navbar{
-    background: #dcdcdcc9;  
+    background: #dcdcdce3;  
 }  
 .navbar-brand img{
     height: 33px;
@@ -13,5 +13,5 @@
 .nav-item a:hover{ 
     border: 1px solid white;
     border-radius: 10px;
-    background-color: #8abddc;
+    background-color: #5865dd;
 }
